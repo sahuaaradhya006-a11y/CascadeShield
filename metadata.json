@@ -1,0 +1,6 @@
+{
+  "name": "CascadeShield - Dependency Modelling & Failure Propagation Simulator",
+  "description": "Interactive microservices dependency graph, cascading failure BFS simulator, blast radius tracker, and circuit breaker mitigation engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
