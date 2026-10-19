@@ -1,43 +1,70 @@
-# 🛡️ CascadeShield: Dependency Modelling & Failure Propagation Simulator
+<div align="center">
 
-**CascadeShield** is a front-end simulation tool designed to visualize microservice failure paths, calculate live blast radii, and demonstrate real-time mitigation via circuit breakers. Built for rapid resilience testing and incident response visualization.
+# 🛡️ CascadeShield
+### *Next-Gen Dependency Modelling & Failure Propagation Simulator*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge&logo=appveyor" alt="Status">
+  <img src="https://img.shields.io/badge/Platform-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify">
+  <img src="https://img.shields.io/badge/Algorithm-BFS%20Graph-orange?style=for-the-badge&logo=codeforces&logoColor=white" alt="Algorithm">
+</p>
+
+[✨ **Explore Live Demo**](YOUR_NETLIFY_URL_HERE)
+
+*Simulate microservice failure paths, calculate live blast radii, and master rapid incident recovery through interactive chaos engineering.*
+
+</div>
 
 ---
 
-## 🚀 Key Features
+## 💡 About The Project
 
-* **Visual Failure Propagation (BFS Engine):** Simulates how a failure in a single core service (e.g., Auth or User DB) cascades downstream through interconnected microservices.
-* **Preset Scenario Testing:** Instant 1-click simulation buttons for common outages:
+In modern distributed architectures, a single point of failure (SPOF) can trigger cascading outages across an entire ecosystem. **CascadeShield** is an advanced frontend resilience simulator designed to help developers and security teams visualize, analyze, and mitigate system vulnerabilities *before* they impact live end-users.
+
+---
+
+## ⚡ Core Capabilities
+
+* **🔮 Visual Failure Propagation (BFS Engine):** Watch failure waves travel hop-by-hop across interconnected microservices using Breadth-First Search graph traversal.
+* **🎯 1-Click Judge Presets:** Instantly test common production-grade outage scenarios:
   * *Scenario 1: Payment Outage & Recovery*
   * *Scenario 2: Auth Service Bottleneck*
   * *Scenario 3: User DB Primary Failure*
   * *Scenario 4: Database Replication Lag*
-* **1-Click Mitigation Recovery:** Trip circuit breakers instantly to reroute traffic, halt blast propagation, and restore system health to safe states.
-* **Live Blast Radius & Metrics:** Real-time calculation of System Impact %, Revenue Risk, and Single Points of Failure (SPOFs).
-* **Causal Trace Log:** Terminal-style logging showing hop-by-hop failure progression for debugging and auditing.
+* **🛡️ Instant Circuit Breaker Mitigation:** Trip breakers on-the-fly to reroute traffic, isolate damaged nodes, and halt blast propagation.
+* **📊 Real-Time Blast Radius Metrics:** Live calculations tracking System Impact Percentage, Revenue Risk, and Active SPOFs.
+* **🖥️ Causal Trace Log:** Built-in terminal simulation logging every event for deep-dive auditing.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-* **Frontend:** HTML5, CSS3, JavaScript (Vanilla ES6+)
-* **Styling & UI:** Modern responsive dashboard design with custom animations and interactive node maps.
-* **Architecture Logic:** Breadth-First Search (BFS) graph traversal for cascading failure simulation.
-
----
-
-## 🎯 How to Use / Demo
-
-1. Open the live application link.
-2. Select any **Judge Preset Scenario** from the control bar to trigger a live failure wave.
-3. Observe the causal trace log and the real-time update of system impact metrics.
-4. Click **"1-Click Mitigate All"** or trip individual circuit breakers to watch the system recover.
+| Layer | Technology Used | Purpose |
+| :--- | :--- | :--- |
+| **Core UI** | HTML5, Modern CSS3 | Responsive & Sleek Dashboard Layout |
+| **Logic & Engine** | Vanilla ES6+ JavaScript | Dynamic Component State & Interactivity |
+| **Core Algorithm** | Breadth-First Search (BFS) | Microservice Dependency Traversal |
+| **Deployment** | Netlify Edge Network | High-Performance Global Delivery |
 
 ---
 
-## 💡 Real-World Use Cases
+## 🕹️ Quick Start Guide
 
-* **Chaos Engineering:** Pre-test system vulnerabilities before production outages occur.
-* **Incident Response:** Quickly trace root causes during complex distributed system failures.
-* **Developer Onboarding:** Visualize microservice dependency mapping in seconds.
-*
+1. Click the **[Live Demo](YOUR_NETLIFY_URL_HERE)** button at the top to launch the application.
+2. Select any **Preset Scenario** from the control panel to inject a live failure wave.
+3. Observe the real-time metric shifts and the live terminal log.
+4. Click **"1-Click Mitigate All"** to watch the architecture recover successfully!
+
+---
+
+## 🚀 Real-World Applications
+
+* **Chaos Engineering:** Proactively identify architectural weak links safely in a sandbox environment.
+* **Incident Response Training:** Train engineering teams to troubleshoot cascading failures under pressure.
+* **Stakeholder Demos:** Explain complex backend topologies visually in seconds without complex setups.
+
+---
+
+<div align="center">
+  <p><b>Crafted with precision for rapid resilience testing and architectural reliability.</b></p>
+</div>
