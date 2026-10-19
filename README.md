@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Algorithm-BFS%20Graph-orange?style=for-the-badge&logo=codeforces&logoColor=white" alt="Algorithm">
 </p>
 
-[✨ **Explore Live Demo**](YOUR_NETLIFY_URL_HERE)
+[✨ **Explore Live Demo**](https://ornate-sable-63f7d1.netlify.app)
 
 *Simulate microservice failure paths, calculate live blast radii, and master rapid incident recovery through interactive chaos engineering.*
 
@@ -50,7 +50,7 @@ In modern distributed architectures, a single point of failure (SPOF) can trigge
 
 ## 🕹️ Quick Start Guide
 
-1. Click the **[Live Demo](YOUR_NETLIFY_URL_HERE)** button at the top to launch the application.
+1. Click the **[Live Demo](https://ornate-sable-63f7d1.netlify.app)** button at the top to launch the application.
 2. Select any **Preset Scenario** from the control panel to inject a live failure wave.
 3. Observe the real-time metric shifts and the live terminal log.
 4. Click **"1-Click Mitigate All"** to watch the architecture recover successfully!
